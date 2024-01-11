@@ -28,7 +28,7 @@ module.exports.register = async function (req, res) {
 
         return res.status(201).json(
             {
-                message: 'Patient registered successfully',
+                message: 'Patient registration completed successfully',
                 data: user
             })
 
